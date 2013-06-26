@@ -1,0 +1,381 @@
+body {
+  background-color: #FFF;
+  color: #663399; 
+  background-image: url(/assets/bg.png);
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+body, p, ol, ul, td {
+  font-family: Georgia, arial, helvetica, sans-serif;
+  font-size:   36px;
+}
+
+pre {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { 
+  color: #56586e;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #fff;
+  background-color:#14e89b;
+}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+h1 {
+  font-size:40px;
+  font-weight: normal;  
+  background: #fff;
+  color: #000000; 
+  display: inline;
+}
+
+.page_block{
+  padding:20px;
+  -moz-border-radius:20px;
+	-webkit-border-radius:20px
+}
+
+.topmargin {
+  margin-top: 138px;
+  display: block;
+}
+
+.homeheading {
+  font-size:  40px; 
+  background: #fff;
+  color: #14e89b; 
+  display: inline;
+  
+}
+
+.contact {
+
+  background: #fff;
+  display: inline;
+  
+}
+
+.image {
+  display:inline;
+}
+
+.image a {
+
+}
+
+.image a:hover {
+  background: #fff;
+}
+
+.image_desc a {
+  background: #FFF;
+  color: #000;
+  font-size: 14px;
+}
+
+.image_desc a:hover {
+ background: #000;
+ color: #FFF;
+}
+
+.artists {
+  
+}
+
+.artists h1 {
+  font-size:40px;
+  font-weight: normal; 
+  background: #fff;
+  color: #008efc; 
+  display: inline;
+}
+
+.artist_detail {
+  color: #000; 
+  font-size: 24px;
+  background: #fff;
+  display: inline;
+}
+
+.artist_detail a {
+  color: #008efc; 
+  font-size: 24px;
+  background: #fff;
+}
+
+.artist_detail a:hover {
+  color: #fff; 
+  font-size: 24px;
+  background: #008efc;
+}
+
+.contact {
+  
+}
+
+.contact h1 {
+  
+  color: #14E89B; 
+
+}
+
+.contact_text {
+  
+  color: #333; 
+  font-size: 16px;
+  background: #FFF;
+  display: inline;
+
+}
+
+.contact_text a {
+  
+  padding: 4px;
+  color: #fff; 
+  background: #14E89B;
+
+}
+
+.contact_text a:hover {
+  
+  background: #fff; 
+  color: #14E89B;
+
+}
+
+.about {
+  
+}
+
+.about h1 {
+  
+  color: #008efc; 
+
+}
+
+.about_text {
+  
+  color: #333; 
+  font-size: 16px;
+  background: #FFF;
+  display: inline;
+
+}
+
+.about_text a {
+  
+  color: #fff; 
+  background: #008efc;
+
+}
+
+.about_text a:hover {
+  
+  background: #fff; 
+  color: #008efc;
+
+}
+
+.releases {
+  
+}
+
+.news {
+  font-size:14px;
+  font-weight: normal;
+  
+  background: #fff; 
+  display: inline;
+}
+
+.news a {
+  
+}
+
+.news a:hover {
+  background: #008efc;
+  color: #fff; 
+  display:  inline;
+}
+
+.releases h1 {
+  font-size:40px;
+  font-weight: normal;
+  
+  background: #fff;
+  color: #e8145f; 
+  display: inline;
+}
+
+.text_main_sml {
+  color: #000; 
+  font-size: 14px;
+  background: #fff;
+  display: inline;
+}
+
+.releases_list {
+  color: #000; 
+  font-size: 20px;
+  background: #fff;
+  display: inline;
+}
+
+.releases_list a {
+  color: #e8145f; 
+
+}
+
+.spacer {
+  
+  height: 10px;
+  
+}
+
+.spacer_job {
+  
+  height: 20px;
+  
+}
+
+.job_date {
+  
+  padding:6px;
+  color: #e8145f;
+  line-height: 120%;
+  font-size: 20px;
+  background: #FFF;
+  display: inline;
+}
+
+.job_date a {
+  font-style:italic;
+  color: #000;
+}
+
+.job_title {
+  padding:6px;
+  color: #fff;
+  line-height: 120%;
+  font-size: 20px;
+  background: #e8145f;
+  display: inline;
+}
+
+.job_title a {
+  color: #fff;
+}
+
+.job_title a:hover {
+  color: #000;
+}
+
+.job_data {
+  padding:6px;
+  color: #fff;
+  line-height: 120%;
+  font-size: 16px;
+  background: #000;
+  display: inline;
+}
+
+.text_main {
+  color: #333; 
+  font-size: 16px;
+  background: #FFF;
+  display: inline;
+}
+
+.text_main a {
+  color: #e8145f; 
+  font-size: 24px;
+  background: #fff;
+}
+
+.text_main a:hover {
+  color: #fff; 
+  font-size: 24px;
+  background: #e8145f;
+}
+
+
+
+.title {
+  font-size:  40px; 
+  background: #fff;
+  color: #000000; 
+  display: inline;
+  
+}
+
+.title a {
+  color: #000000;   
+}
+
+.title a:hover {
+  color: #FFFFFF;   
+}
+
+.menu {
+  font-size:  24px;  
+  background: #fff;
+  color:      #56586e; 
+  display:    inline;
+  
+}
+
+.content { 
+  font-size:  14px;
+  background: #fff;
+  
+  display: inline;
+  font-family: arial, helvetica, Georgia, arial, sans-serif;
+}
+
+.menu a {
+ 
+
+  
+}

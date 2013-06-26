@@ -1,0 +1,28 @@
+.topmargin
+.image
+  %table{ :width => "100%" , :cellpadding => "0", :cellspacing => "0", :border => "0"}
+    %tr
+      %td{ :width => "100%" , :valign => "top", :align => 'center'}
+        %table{ :width => "1000" , :cellpadding => "0", :cellspacing => "0", :border => "0"}
+          %tr
+            %td{ :width => "100%" , :valign => "top"}
+              .releases
+                %h1
+                  Material Object
+                %p
+                .menu 
+                  = link_to 'Tw@tter', 'http://twitter.com/materialobject'
+                  = "/"
+                  = link_to 'Soun7cloud', 'http://soundcloud.com/materialobject'
+                  = "/"
+                  = link_to 'Fac3b00k', 'http://facebook.com/materialobject'
+                  = "/"
+                  = mail_to 'bookings@materialobject.com', 'B00k1ngs'
+                  %p
+  
+                  - @posts.each do |p|
+                    = "#{p.title}"
+                    %br
+                    .contact_text
+                      = "#{p.body}"
+                    %p
