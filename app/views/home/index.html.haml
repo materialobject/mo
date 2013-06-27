@@ -19,7 +19,8 @@
                   = "/"
                   = mail_to 'bookings@materialobject.com', 'B00k1ngs'
                   %p
-  
+                  = "News"
+                  %p
                   - @posts.each do |p|
                     = "#{p.title}"
                     %br

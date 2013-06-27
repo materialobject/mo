@@ -4,7 +4,7 @@ development:
  adapter: postgresql
  encoding: utf8
  database: materialobject
- username: sansserif
+ username: mo
  password: 
  host: localhost
 
@@ -12,7 +12,7 @@ test:
  adapter: postgresql
  encoding: utf8
  database: materialobject_test
- username: sansserif
+ username: mo
  password: 
  host: localhost
 
